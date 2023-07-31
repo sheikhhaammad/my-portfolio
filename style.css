@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Handjet:wght@300&family=Mukta:wght@300&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;1,300&family=Tektur&family=Ubuntu&display=swap');
 body{
-    font-family: 'Amiri', serif;
-    font-family: 'Handjet', cursive;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Tektur', cursive;
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;}
 *{
     margin: 0;
     padding: 0;
@@ -19,17 +12,20 @@ body{
     gap: 60px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(240, 133, 10);
+    background-color:lightsteelblue;
     font-size: 25px;
     font-weight: 600;
     height: 70px;
     width: 98.9vw;
 }
-li{
+ li{
     color:black;
     transition: 0.4s;
 }
-.container i:hover,li:hover{
+.skills li{
+    transition: none !important;
+}
+ i:hover,.container li:hover{
     color: white;
     font-size: 32px;
     transition: 0.4s ease-out;
@@ -65,12 +61,13 @@ justify-content: space-between;
 }
 footer{
     height: 20vh;
-    background-color: rgb(240, 133, 10);
+    background-color: lightsteelblue;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
     width: 99vw;
+    margin-top: 100px;
 }
 .text_control{
 
@@ -78,10 +75,8 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     border-width: 10px;
-
-
 }
 .contact{
 
@@ -128,7 +123,7 @@ input ,textarea{
 }
 
 .button:hover {
-  background-color: rgb(240, 133, 10);
+  background-color: lightsteelblue;
 }
 
 .button:focus {
@@ -147,16 +142,36 @@ input ,textarea{
 }
 .resume{
     padding: 200px;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.search_control input{
-  height: 30px;
-  width: 15pc;
-  border: 2px solid black;
+.search_control{
+display: flex;
+margin-left: 3pc;
 }
 .number{
     margin-left: 16px;
 }
 .email{
     margin-right: 3px;
+}
+.text_control input ,textarea{
+    border: 3px solid black;
+}
+.text_control textarea{
+    margin-right: 246px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+}
+.hobbies{
+    display: flex;
+    justify-content: center;
 }
