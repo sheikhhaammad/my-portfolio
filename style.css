@@ -16,7 +16,7 @@ body{
     font-size: 25px;
     font-weight: 600;
     height: 70px;
-    width: 98.9vw;
+    width: 100%;
 }
  li{
     color:black;
@@ -54,8 +54,10 @@ justify-content: space-between;
 
 .container_2 img{
     width: 32vw;
-    height: 105vh;
+    height: 82vh;
     margin-right: 150px;
+    border-radius: 40pc;
+    margin-top: 20px;
     
 
 }
@@ -66,7 +68,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 60px;
-    width: 99vw;
+    width: 100%;
     margin-top: 100px;
 }
 .text_control{
@@ -176,7 +178,7 @@ margin-left: 3pc;
     justify-content: center;
 }
 .hire{
-    border-radius: 10px;
+    border-radius: 15px;
     border: 3px solid black;
     font-size:medium;
     display: flex;
@@ -186,9 +188,48 @@ margin-left: 3pc;
     padding: 8px; 
     background-color: black;
     color: #FFFFFF;
+    transition: ease-in 0.3s;
     
 }
 .hire:hover{
     background-color: lightsteelblue ;
     color: black;
+    transition: ease-out 0.3s;
 }
+
+@media all and (max-width: 600px){
+    .container{
+
+        list-style: none;
+        display: flex;
+        gap:30px;
+        align-items: center;
+        justify-content: center;
+        background-color:lightsteelblue;
+        font-size: 25px;
+        font-weight: 600;
+        height: 70px;
+        width: 792px;
+        font-size:medium;
+    }
+    .container_2{
+        display: flex;
+        justify-content: space-between;
+        
+        }
+        .container_2 img{
+            width: 32vw;
+            height: 82vh;
+            margin-right: 150px;
+            border-radius: 40pc;
+            margin-top: 20px;
+        }  
+        .resume{
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column; 
+        }
+  
+        
+    }
