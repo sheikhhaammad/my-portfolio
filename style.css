@@ -12,7 +12,7 @@ body{
     gap: 60px;
     align-items: center;
     justify-content: center;
-    background-color:lightsteelblue;
+    background-color:rgb(255, 0, 0);
     font-size: 25px;
     font-weight: 600;
     height: 70px;
@@ -39,6 +39,7 @@ a{
 .container_2{
 display: flex;
 justify-content: space-between;
+background-color: grey;
 }
 .left_side{
     align-items:center ;
@@ -63,7 +64,7 @@ justify-content: space-between;
 }
 footer{
     height: 20vh;
-    background-color: lightsteelblue;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +80,7 @@ footer{
     flex-direction: column;
     gap: 20px;
     border-width: 10px;
+    background-color:grey;
 }
 .contact{
 
@@ -94,16 +96,17 @@ flex-direction: row;
 }
 input ,textarea{
     border-radius: 10px;
+ 
 }
 .button{
     margin-left: 68px;
 }
 .button {
-  background-color: #111827;
+  background-color:white;
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: black;
   cursor: pointer;
   flex: 0 0 auto;
   font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -125,7 +128,8 @@ input ,textarea{
 }
 
 .button:hover {
-  background-color: lightsteelblue;
+  background-color: black;
+  color: white;
 }
 
 .button:focus {
@@ -147,6 +151,14 @@ input ,textarea{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 2pc;
+    background-color:grey ;
+}
+.color{
+    background-color: white;
+}
+.education{
+    background-color: white;
 }
 .search_control{
 display: flex;
@@ -176,13 +188,14 @@ margin-left: 3pc;
 .hobbies{
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 .hire{
     border-radius: 15px;
     border: 3px solid black;
     font-size:medium;
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-items: center; 
     margin-left:10pc;  
     size: 30px; 
     padding: 8px; 
@@ -196,40 +209,86 @@ margin-left: 3pc;
     color: black;
     transition: ease-out 0.3s;
 }
+.icons{
+    display: flex;
+    gap: 90px;
+}
 
-@media all and (max-width: 600px){
+@media all and (max-width: 900px){
+
+.container_2 img{
+    width:200px;
+    height: 20pc;
+    margin-left: 30px;
+}
+
+}
+
+@media all and (max-width: 768px ){
+    .container_2 img {
+    width: 130px;
+    height: 10pc;
+    }
+    .left_side{
+        width: 200px;
+    }
     .container{
+        font-size: medium;
+    }
 
-        list-style: none;
-        display: flex;
-        gap:30px;
-        align-items: center;
-        justify-content: center;
-        background-color:lightsteelblue;
-        font-size: 25px;
-        font-weight: 600;
-        height: 70px;
-        width: 792px;
-        font-size:medium;
+}
+@media all and (max-width: 786px ){
+    .container_2 img {
+    width: 130px;
+    height: 10pc;
     }
-    .container_2{
-        display: flex;
-        justify-content: space-between;
-        
-        }
-        .container_2 img{
-            width: 32vw;
-            height: 82vh;
-            margin-right: 150px;
-            border-radius: 40pc;
-            margin-top: 20px;
-        }  
-        .resume{
-            padding: 100px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column; 
-        }
-  
-        
+    .left_side{
+        width: 200px;
     }
+    .container{
+        font-size: small;
+    }
+
+}
+@media all and (max-width: 837px ){
+    .container_2 img {
+    width: 130px;
+    height: 10pc;
+    }
+    .left_side{
+        width: 200px;
+    }
+    .container{
+        font-size: medium;
+    }
+
+}
+@media all and (max-width: 748px ){
+    .container_2 img {
+    width: 130px;
+    height: 10pc;
+    }
+    .left_side{
+        width: 200px;
+    }
+    .container{
+        font-size: small;
+        gap: 30px;
+    }
+
+}
+@media all and (max-width: 722px ){
+    .container_2 img {
+    width: 130px;
+    height: 10pc;
+    }
+    .left_side{
+        width: 200px;
+    }
+    .container{
+        font-size: small;
+        gap: 30px;
+    }
+
+}
+
