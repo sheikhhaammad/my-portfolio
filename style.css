@@ -12,7 +12,7 @@ body{
     gap: 60px;
     align-items: center;
     justify-content: center;
-    background-color:rgb(255, 0, 0);
+    background-color:lightblue;
     font-size: 25px;
     font-weight: 600;
     height: 70px;
@@ -39,7 +39,7 @@ a{
 .container_2{
 display: flex;
 justify-content: space-between;
-background-color: grey;
+background-color:white;
 }
 .left_side{
     align-items:center ;
@@ -64,7 +64,7 @@ background-color: grey;
 }
 footer{
     height: 20vh;
-    background-color: white;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,7 @@ footer{
     flex-direction: column;
     gap: 20px;
     border-width: 10px;
-    background-color:grey;
+    background-color:white;
 }
 .contact{
 
@@ -102,7 +102,7 @@ input ,textarea{
     margin-left: 68px;
 }
 .button {
-  background-color:white;
+  background-color:lightblue;
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
@@ -152,13 +152,13 @@ input ,textarea{
     justify-content: center;
     flex-direction: column;
     gap: 2pc;
-    background-color:grey ;
+    background-color:white ;
 }
 .color{
-    background-color: white;
+    background-color: lightblue;
 }
 .education{
-    background-color: white;
+    background-color: lightblue;
 }
 .search_control{
 display: flex;
@@ -172,6 +172,7 @@ margin-left: 3pc;
 }
 .text_control input ,textarea{
     border: 3px solid black;
+    background-color: lightblue;
 }
 .text_control textarea{
     margin-right: 246px;
@@ -188,26 +189,31 @@ margin-left: 3pc;
 .hobbies{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: lightblue;
 }
 .hire{
     border-radius: 15px;
-    border: 3px solid black;
+    border: 3px solid lightblue;
     font-size:medium;
     display: flex; 
     align-items: center; 
     margin-left:10pc;  
     size: 30px; 
     padding: 8px; 
-    background-color: black;
-    color: #FFFFFF;
+    background-color: lightblue;
+    color: black;
     transition: ease-in 0.3s;
     
 }
 .hire:hover{
-    background-color: lightsteelblue ;
-    color: black;
+    background-color: black ;
+    color: lightblue;
     transition: ease-out 0.3s;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
 }
 .icons{
     display: flex;
