@@ -281,7 +281,6 @@ margin-left: 3pc;
         font-size: small;
         gap: 30px;
     }
-
 }
 @media all and (max-width: 722px ){
     .container_2 img {
@@ -330,6 +329,54 @@ margin-left: 3pc;
         }
         .number{
             padding-right: 58vh;
+        }
+}
+@media all and (max-width: 415px ){
+    .container_2 img {
+        width: 50px;
+        height: 10pc;
+        }
+        .left_side h1{
+            font-size: 30px;
+            width: 10pc;
+        }
+        .container{
+            font-size: xx-small;
+            gap: 20px;
+            width: 26pc;
+        }
+        .img_2 img{
+        margin-right: 60px;
+        width: 90px;
+        }
+        .left_side{
+            padding-left: 30px;
+        }
+        .resume{
+            padding: 100px;
+        }
+         .message{  
+          margin-left: 290px;
+          
+        }
+        .name{
+            padding-right: 6vh;
+        }
+        .email{
+            padding-right: 6vh;
+        }
+        .number{
+            padding-right: 6vh;
+        }
+        .hire{
+            margin-left:4pc;  
+            size: 30px; 
+            padding: 8px; 
+        }
+         .message {
+        margin-left: 0%; 
+        padding-left: 10px;   
+
         }
 }
 
