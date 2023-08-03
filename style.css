@@ -297,4 +297,39 @@ margin-left: 3pc;
     }
 
 }
+@media all and (max-width: 480px ){
+    .container_2 img {
+        width: 80px;
+        height: 10pc;
+        }
+        .left_side h1{
+            font-size: 30px;
+            width: 10pc;
+        }
+        .container{
+            font-size: small;
+            gap: 10px;
+        }
+        .img_2 img{
+        margin-right: 60px;
+        }
+        .left_side{
+            padding-left: 30px;
+        }
+        .resume{
+            padding: 100px;
+        }
+         .message{
+            margin-left: 5%;   
+        }
+        .name{
+            padding-right: 60vh;
+        }
+        .email{
+            padding-right: 60vh;
+        }
+        .number{
+            padding-right: 58vh;
+        }
+}
 
